@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+}
+
+h5{
+  color:white;
+  background-color: orange;
+}
+input {
+    padding: 8px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid orange;
+    border-radius: 4px;
+}
+input:focus {
+    background-color: orange;
+    color:white;
+}
+fieldset{
+  border: 2px solid orange;
+  border-radius: 4px;
+}
+legend{
+  color: orange;
+}
+textarea{
+  border: 2px solid orange;
+  border-radius: 4px;
+}
+textarea:focus {
+  background-color: orange;
+  color:white;
+}
+input[type=submit]{
+  background-color: orange;
+  display: block;
+  color:white;
+}
+input[type=reset]{
+  background-color: orange;
+  display: block;
+  color:white;
+}
+input[type=button]{
+  background-color: orange;
+  display: block;
+  color:white;
+}
